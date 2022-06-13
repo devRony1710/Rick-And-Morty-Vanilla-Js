@@ -5,9 +5,40 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="./static/css/styles.css">
 </head>
 <body>
-  
-  <script src="./static/js/app.js"></script>
+  <img src="./static/images/logo.png" width="280" alt="logo" class="logo-img">
+
+  <div id="character-container">
+
+  </div>
+
+  <aside class="navigation">
+    <span>About</span>
+    <span>Name</span>
+  </aside>
+
+  <div class="wrapper">
+    <article class="character">
+       <div class="character-grid">
+          <img class="character-image" src="https://rickandmortyapi.com/api/character/avatar/2.jpeg" alt="">
+          <div class="character-name">
+            <h2>Rick Sanchez</h2>
+          </div>
+
+          <div class="character-labels">
+            <h3 class="character-label">Gender: Male</h3>
+            <h3 class="character-label">Species: Human</h3>
+            <h3 class="character-label">Status: Alive</h3>
+          </div>
+
+
+       </div>
+    </article>
+  </div>
+
+
+  <script type="module" src="./static/js/app.js"></script>
 </body>
 </html>
